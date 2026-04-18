@@ -1,4 +1,20 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+# إضافة كود التتبع الخاص بالمنصة الربحية
+components.html(
+    """
+    <script>
+      (function () {
+          var script = document.createElement("script");
+          script.async = 1;
+          script.src = 'https://emrldtp.com/NTE5OTk0.js?t=519994';
+          document.head.appendChild(script);
+      })();
+    </script>
+    """,
+    height=0, # نجعله مخفياً لأنه كود تتبع وليس واجهة
+)
 import requests
 
 # إعدادات الصفحة الاحترافية
