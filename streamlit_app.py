@@ -26,7 +26,7 @@ st.set_page_config(
 
 # بيانات الربط مع API (تأكد من تفعيل Skyscanner في RapidAPI)
 RAPID_API_KEY = "0a189d02cemsh7cf29bb265f5c0ep1917c5jsn8dcc2b79af10"
-RAPID_API_HOST = "skyscanner44.p.rapidapi.com"
+RAPID_API_HOST = "kiwi-com-cheap-flights.p.rapidapi.com"
 
 # تصميم الواجهة (UI)
 st.title("✈️ صائد صفقات السفر الذكي")
