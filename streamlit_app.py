@@ -25,7 +25,7 @@ st.set_page_config(
 )
 
 # بيانات الربط مع API (تأكد من تفعيل Skyscanner في RapidAPI)
-RAPID_API_KEY = "429c71c5a1fefd9432b75fa5967ac85e"
+RAPID_API_KEY = "0a189d02cemsh7cf29bb265f5c0ep1917c5jsn8dcc2b79af10"
 RAPID_API_HOST = "skyscanner44.p.rapidapi.com"
 
 # تصميم الواجهة (UI)
